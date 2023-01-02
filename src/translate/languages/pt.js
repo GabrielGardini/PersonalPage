@@ -28,7 +28,7 @@ const messages = {
         contact: 'Entre em contato!',
       },
       solutions: {
-        mainTitle: 'O que só a CheckSpeech AI pode fazer por você:',
+        mainTitle: 'Minhas habilidades:',
 
         title1: 'Transcrição de Áudio Assíncrono',
         subtitle1: '(áudio pré-gravado)',

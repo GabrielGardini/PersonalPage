@@ -1026,19 +1026,12 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
-  version "7.18.3"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.18.3.tgz"
-  integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.2", "@babel/runtime@^7.19.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+  version "7.20.7"
+  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.7.tgz"
+  integrity sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==
   dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.14.6":
-  version "7.18.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
-  integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
-  dependencies:
-    regenerator-runtime "^0.13.4"
+    regenerator-runtime "^0.13.11"
 
 "@babel/template@^7.16.7", "@babel/template@^7.3.3":
   version "7.16.7"
@@ -5037,16 +5030,16 @@ human-signals@^2.1.0:
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
 i18next-browser-languagedetector@^6.1.4:
-  version "6.1.4"
-  resolved "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-6.1.4.tgz#7b087c5edb6f6acd38ef54ede2160ab9cde0108f"
-  integrity sha512-wukWnFeU7rKIWT66VU5i8I+3Zc4wReGcuDK2+kuFhtoxBRGWGdvYI9UQmqNL/yQH1KogWwh+xGEaIPH8V/i2Zg==
+  version "6.1.8"
+  resolved "https://registry.npmjs.org/i18next-browser-languagedetector/-/i18next-browser-languagedetector-6.1.8.tgz"
+  integrity sha512-Svm+MduCElO0Meqpj1kJAriTC6OhI41VhlT/A0UPjGoPZBhAHIaGE5EfsHlTpgdH09UVX7rcc72pSDDBeKSQQA==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.19.0"
 
 i18next@^21.8.11:
-  version "21.8.11"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.8.11.tgz#197aac04be51b7083999a2cb63deb831cf1ba4c8"
-  integrity sha512-+s8N6kQShwNK+Ua/+VsS/Sji24NUJJLBk9QIucygj1f97f4hPNDWmLP9fQCI4d5+XLfXJ3JctX4g+zJla967Vw==
+  version "21.10.0"
+  resolved "https://registry.npmjs.org/i18next/-/i18next-21.10.0.tgz"
+  integrity sha512-YeuIBmFsGjUfO3qBmMOc0rQaun4mIpGKET5WDwvu8lU7gvwpcariZLNtL0Fzj+zazcHUrlXHiptcFhBMFaxzfg==
   dependencies:
     "@babel/runtime" "^7.17.2"
 
@@ -7541,6 +7534,11 @@ react-google-recaptcha@^2.1.0:
     prop-types "^15.5.0"
     react-async-script "^1.1.1"
 
+react-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.npmjs.org/react-icons/-/react-icons-4.7.1.tgz"
+  integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
+
 react-input-mask@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/react-input-mask/-/react-input-mask-2.0.4.tgz"
@@ -7726,10 +7724,10 @@ regenerate@^1.4.2:
   resolved "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
-regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.9:
-  version "0.13.9"
-  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
-  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+regenerator-runtime@^0.13.11, regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.9:
+  version "0.13.11"
+  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 regenerator-transform@^0.15.0:
   version "0.15.0"
