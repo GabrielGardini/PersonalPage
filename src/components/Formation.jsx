@@ -48,7 +48,7 @@ const Formation = () => {
 
   return (
     <>
-      <Box style={box} id={"clientes"}>
+      <Box style={box}>
         <Grid sx={gridContainer} container spacing={5}>
           <Grid item xl={6} xs={12}>
             <h1>{i18n.t('formation.title')}
@@ -57,7 +57,7 @@ const Formation = () => {
               </b>
             </h1>
             <h2>
-              {i18n.t('formation.subtitle')}
+              {/* {i18n.t('formation.subtitle')} */}
             </h2>
             <Box style={detailBox}>
               <h3>

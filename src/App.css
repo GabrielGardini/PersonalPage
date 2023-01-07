@@ -6,10 +6,20 @@
 
 }
 [data-anime="left"] {
-    transform: translateX(-2000px);
+    transform: translate3d(-2000px, 0, 0);
 }
 [data-anime="right"] {
-    transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, -2000px);
+}
+[data-anime="leftDiagonal"] {
+    transform: translate3d(-2000px, -2000px, 0);
+
+}
+[data-anime="rightDiagonal"] {
+    transform: translate3d(2000px, -2000px, 0);
+}
+[data-anime="center"] {
+    transform: scale(0.1);
 }
 
 [data-anime].animate {

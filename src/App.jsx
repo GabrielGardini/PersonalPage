@@ -23,7 +23,7 @@ function App() {
       <Cookies/>
       <Solutions/>
       <Prices/>
-      <Form/>
+      {/* <Form/> */}
       <Footer/>
     </>
   );

@@ -16,8 +16,7 @@ import {Settings} from "@mui/icons-material";
 
 
 const pages = [
-  {title: i18n.t('header.page1'), route: '#solucoes'},
-  {title: i18n.t('header.page2'), route: '#clientes'},
+  {title: i18n.t('header.page2'), route: '#experience'},
   {title: i18n.t('header.page3'), route: '#precos'},
   {title: i18n.t('header.page4'), route: '#contato'},
 ];
@@ -123,11 +122,13 @@ const Header = () => {
 
   return (
     <>
-      <HideOnScroll>
+      <HideOnScroll id={'sobre'}>
         <AppBar sx={{backgroundColor:'#1DB954'}} elevation={2}>
           <Container maxWidth="xl">
             <Toolbar disableGutters>
-              <h1 style={logoText}>Gabriel Gardini</h1>
+              <h1 onClick={() => window[`scrollTo`]({top: 0, behavior: `smooth`})} style={logoText}>
+                Gabriel Gardini
+              </h1>
               <Box
                 sx={box1}
               >

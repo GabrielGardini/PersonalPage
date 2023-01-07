@@ -2,9 +2,9 @@ const messages = {
   pt: {
     translations: {
       header: {
-        page1: 'Soluções',
-        page2: 'Clientes',
-        page3: 'Preços',
+        page1: 'Sobre mim',
+        page2: 'Experiência',
+        page3: 'Projetos',
         page4: 'Contato',
         page5: 'Idioma',
         modalText: 'Selecione o idioma de sua preferência:',
@@ -19,11 +19,11 @@ const messages = {
         detail3: 'Aqui você irá saber um pouco mais sobre mim e meus projetos!',
       },
       formation: {
-        title: 'Bacharel em formação pela ',
+        title: 'Cursando Ciência da Computação ',
         unicamp: 'Unicamp',
         subtitle: 'Cursando Ciência da Computação',
-        detail1: 'Atualmente no quinto semestre do curso',
-        detail2: 'Mais de 1 ano de experiência trabalhando com desenvolvimento web e mobile em grandes empresas  ',
+        detail1: 'Atualmente no quinto semestre do curso;',
+        detail2: 'Mais de 1 ano de experiência trabalhando com desenvolvimento web e mobile em grandes empresas.  ',
         detail3: 'Não perca tempo e entre em contato!',
         contact: 'Entre em contato!',
       },

@@ -37,8 +37,8 @@ const Initial = () => {
     paddingTop: matches?0:15,
     borderRadius: 100,
     borderTopLeftRadius: 1,
-    width: matches ? 500 : 300,
-    height: matches ? 500 : 300
+    width: matches ? 500 : 330,
+    height: matches ? 500 : 330
   };
 
 
@@ -62,7 +62,7 @@ const Initial = () => {
               </h3>
             </Box>
           </Grid>
-          <Grid item md={6} xs={12} sx={{textAlign: matches?'-webkit-right': null}}>
+          <Grid item md={6} xs={12} sx={{textAlign: matches?'-webkit-right': "center", marginTop:matches? 0: 5}}>
             <Box>
             <ProfilePicture
               style={animation}
