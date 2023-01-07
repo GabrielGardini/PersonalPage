@@ -9,17 +9,29 @@
     transform: translate3d(-2000px, 0, 0);
 }
 [data-anime="right"] {
-    transform: translate3d(2000px, 0, -2000px);
+    transform: translate3d(2000px, 0, 0);
 }
 [data-anime="leftDiagonal"] {
     transform: translate3d(-2000px, -2000px, 0);
 
 }
+[data-anime="rightDiagonalBot"] {
+    transform: translate3d(2000px, 2000px, 0);
+
+}
 [data-anime="rightDiagonal"] {
     transform: translate3d(2000px, -2000px, 0);
 }
+[data-anime="leftDiagonalBot"] {
+    transform: translate3d(-2000px, 2000px, 0);
+}
 [data-anime="center"] {
     transform: scale(0.1);
+    /* transform: rotate3d(0, 1, 0, 160deg); */
+}
+[data-anime="centerBot"] {
+    transform: scale(5);
+    /* transform: rotate3d(0, 1, 0, 160deg); */
 }
 
 [data-anime].animate {

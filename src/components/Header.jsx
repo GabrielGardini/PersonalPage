@@ -70,7 +70,7 @@ const Header = () => {
     color: 'black'
   };
   const fab = {
-    color: '#1db954',
+    color: '#4dab6d',
     backgroundColor: 'white',
     position: 'fixed',
     top: '90%',
@@ -123,7 +123,7 @@ const Header = () => {
   return (
     <>
       <HideOnScroll id={'sobre'}>
-        <AppBar sx={{backgroundColor:'#1DB954'}} elevation={2}>
+        <AppBar sx={{backgroundColor:'#4dab6d'}} elevation={2}>
           <Container maxWidth="xl">
             <Toolbar disableGutters>
               <h1 onClick={() => window[`scrollTo`]({top: 0, behavior: `smooth`})} style={logoText}>

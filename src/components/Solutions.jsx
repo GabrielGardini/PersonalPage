@@ -9,20 +9,20 @@ const Solutions = () => {
   //ESTILOS SOLUTIONS
   const matches = useMediaQuery('(min-width:1000px)');
   const box = {
-    marginY: 5,
+    // marginY: 2,
     display: 'flex',
     justifyContent: 'center',
     fontFamily: 'Poppins',
-    fontSize: matches ? 24 : 18
+    fontSize: matches ? 24 : 18,
   };
   const titleCard = {
-    backgroundColor: '#1db954',
+    backgroundColor: '#4dab6d',
     borderRadius: 2
   };
   const title = {
     paddingInline: 20,
     borderRadius: 20,
-    backgroundColor: '#1db954',
+    backgroundColor: '#4dab6d',
     color: 'white'
   };
   const gridContainerWhite = {
@@ -37,7 +37,7 @@ const Solutions = () => {
   };
   const solutionBoxBlue = {
     fontFamily: 'Poppins',
-    backgroundColor: '#1976d2',
+    backgroundColor: 'white',
     display: 'flex',
     justifyContent: 'center',
   };
@@ -51,115 +51,46 @@ const Solutions = () => {
 
   return (
     <>
-    <Box sx={{p:5}} id="experience">
-    <Box id={"solucoes"} data-anime={"left"}
-           sx={box}>
-        <Card elevation={4} sx={titleCard}>
+    <Box id={"solucoes"} data-anime={"center"} sx={box}>
+        {/* <Card elevation={4} sx={titleCard}> */}
           <h1 style={title}>
             {i18n.t('solutions.mainTitle')}
           </h1>
-        </Card>
+        {/* </Card> */}
       </Box>
-      <Box sx={box}>
-      <div className="container experience_container">
-        <div className='experience_frontend'>
-          <h3>Frontend Development</h3>
-          <div className='experience_content'>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div className='experience_frontend'>
-          <h3>Frontend Development</h3>
-          <div className='experience_content'>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <BsPatchCheckFill className="experience_details-icon"/>
-              <div>
-                <h3>HTML</h3>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-      </Box>
-    </Box>
       <Box
         sx={solutionBoxBlue}>
         <Grid container sx={gridContainerWhite}>
-          <Grid data-anime={"left"} sx={{backgroundColor:'pink', borderRadius:5, p:3, }} item md={6} xs={12}>
+          <Grid data-anime={"center"} sx={{backgroundColor:'#4dab6d', borderRadius:5, p:3,}} item md={5.6} xs={12}>
             <Box sx={{display:'flex', justifyContent:'center'}}>
               <h3>Desenvolvimento FrontEnd</h3>
             </Box>
-            <Grid container sx={{}}>
+            <Grid container>
               <Grid item md={6}>
                 <Grid container sx={{p:1}}>
                   <Grid item md={2} sx={{textAlign:'center'}}>
                     <BsPatchCheckFill className="experience_details-icon" />
                   </Grid>
                   <Grid item md={10}>
-                    <Box sx={{display: 'flex', alignItems:'center', ml:2,}}> 
                       <h3>HTML</h3>
-                      <small style={{marginLeft:20}} className='text-light'>Avançado</small>
-                    </Box>
+                      <small className='text-light'>Intermediário</small>
                   </Grid>
                 </Grid>
                 <Grid container sx={{p:1}}>
                   <Grid item md={2} sx={{textAlign:'center'}}>
                     <BsPatchCheckFill className="experience_details-icon" />
-                    {/* <p>c3</p> */}
                   </Grid>
                   <Grid item md={10}>
-                    <h3>HTML</h3>
-                    <small style={{marginBottom:10}} className='text-light'>Avançado</small>
+                    <h3>CSS</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Intermediário</small>
                   </Grid>
                 </Grid>  
                 <Grid container sx={{p:1}}>
                   <Grid item md={2} sx={{textAlign:'center'}}>
                     <BsPatchCheckFill className="experience_details-icon" />
-                    {/* <p>c3</p> */}
                   </Grid>
                   <Grid item md={10}>
-                    <h3>HTML</h3>
+                    <h3>JavaScript</h3>
                     <small style={{marginBottom:10}} className='text-light'>Avançado</small>
                   </Grid>
                 </Grid>    
@@ -168,26 +99,108 @@ const Solutions = () => {
                   <Grid container sx={{p:1}}>
                   <Grid item md={2} sx={{textAlign:'center'}}>
                     <BsPatchCheckFill className="experience_details-icon" />
-                    {/* <p>c3</p> */}
                   </Grid>
                   <Grid item md={10}>
-                    <h3>HTML</h3>
+                    <h3>React</h3>
                     <small style={{marginBottom:10}} className='text-light'>Avançado</small>
                   </Grid>
-                </Grid>  
+
+                </Grid>
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>React Native</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Avançado</small>
+                  </Grid>
+                  
+                </Grid> 
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>Figma</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Básico</small>
+                  </Grid>
+                  
+                </Grid> 
+
               </Grid>
             </Grid>  
           </Grid>
-          <Grid item data-anime={"image"} md={6} xs={12} sx={{textAlign: '-webkit-right'}}>
-            <Box>
-              <lottie-player
-                src="https://assets9.lottiefiles.com/packages/lf20_z01bika0.json"
-                speed="1"
-                style={{width: 300, height: 300}}
-                loop={true}
-                autoplay={true}
-              />
+          <Grid item md={0.8} xs={12}>
+            <p style={{color:"#1976d2"}}> .</p>
+          </Grid>
+          <Grid data-anime={"center"} sx={{backgroundColor:'#4dab6d', borderRadius:5, p:3, }} item md={5.6} xs={12}>
+            <Box sx={{display:'flex', justifyContent:'center'}}>
+              <h3>Desenvolvimento BackEnd</h3>
             </Box>
+            <Grid container>
+              <Grid item md={6}>
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                      <h3>Python</h3>
+                      <small className='text-light'>Avançado</small>
+                  </Grid>
+                </Grid>
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>C</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Intermediário</small>
+                  </Grid>
+                </Grid>  
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>Java</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Intermediário</small>
+                  </Grid>
+                </Grid>    
+                </Grid>
+                  <Grid item md={6} xs={12}>
+                  <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>SQL</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Intermediário</small>
+                  </Grid>
+
+                </Grid>
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>Node Js</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Intermediário</small>
+                  </Grid>
+                  
+                </Grid> 
+                <Grid container sx={{p:1}}>
+                  <Grid item md={2} sx={{textAlign:'center'}}>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                  </Grid>
+                  <Grid item md={10}>
+                    <h3>Hardware</h3>
+                    <small style={{marginBottom:10}} className='text-light'>Avançado</small>
+                  </Grid>
+                  
+                </Grid> 
+
+              </Grid>
+            </Grid>  
           </Grid>
         </Grid>
       </Box>

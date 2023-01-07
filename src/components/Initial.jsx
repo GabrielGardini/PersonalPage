@@ -25,7 +25,7 @@ const Initial = () => {
   };
   const detailBox = {
     borderWidth: 2,
-    borderColor: '#1DB954',
+    borderColor: '#4dab6d',
     borderStyle: 'solid',
     borderRadius: 10,
     borderTopLeftRadius: 0,

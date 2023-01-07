@@ -12,7 +12,7 @@
 
 }
 .experience_container > div {
-    background-color: #1db954;
+    background-color: #4dab6d;
 
     /* background: "blue"; */
     padding: 2.4rem 5rem;
@@ -23,7 +23,7 @@
 
 .experience_container > div:hover {
     background: black;
-    border-color:#1db954;
+    border-color:#4dab6d;
     cursor: default;
 }
 

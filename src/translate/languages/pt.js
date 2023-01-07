@@ -28,7 +28,7 @@ const messages = {
         contact: 'Entre em contato!',
       },
       solutions: {
-        mainTitle: 'Minhas habilidades:',
+        mainTitle: 'Minhas habilidades',
 
         title1: 'Transcrição de Áudio Assíncrono',
         subtitle1: '(áudio pré-gravado)',
