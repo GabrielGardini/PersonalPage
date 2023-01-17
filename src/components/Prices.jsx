@@ -109,13 +109,13 @@ const Prices = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    CheckSpeech AI
+                    ISS Tracker
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Um Exemplo de site para a venda de uma API de serviços de conversão de áudio em texto
+                    Aplicação que mostra onde a Estação Espacial Internacional está localizada no momento criada para aprimorar meus conhecimentos sobre consumo e API's. 
                   </Typography>
                 </CardContent>
-                  <a style={{textDecoration:'none', color:'white'}} href="https://google.com" target="_blank" rel="noreferrer">
+                  <a style={{textDecoration:'none', color:'white'}} href="https://iss-tracker-zeta.vercel.app/" target="_blank" rel="noreferrer">
                     <CardActions sx={{display: 'flex', justifyContent:'center', bgcolor:'#4dab6d'}}>
                       Acesse
                     </CardActions>
@@ -149,19 +149,19 @@ const Prices = () => {
               <Card sx={{borderRadius:4}} elevation={2} >
                 <CardMedia
                   component="img"
-                  alt="checkspeech Ai image"
+                  alt="Jacaré do SUS"
                   height="140"
-                  image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
+                  image="https://img.itch.zone/aW1hZ2UvOTg0NjczLzU1OTgxNTYucG5n/347x500/nWh0OR.png"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    CheckSpeech AI
+                  Jacaré do SUS
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Um Exemplo de site para a venda de uma API de serviços de conversão de áudio em texto
+                    Criado em uma maratona de desenvolvimento de jogos durante a pandemia
                   </Typography>
                 </CardContent>
-                  <a style={{textDecoration:'none', color:'white'}} href="https://google.com" target="_blank" rel="noreferrer">
+                  <a style={{textDecoration:'none', color:'white'}} href="https://pvskp.itch.io/jacar-do-sus" target="_blank" rel="noreferrer">
                     <CardActions sx={{display: 'flex', justifyContent:'center', bgcolor:'#4dab6d'}}>
                       Acesse
                     </CardActions>
@@ -199,7 +199,7 @@ const Prices = () => {
                   component="img"
                   alt="checkspeech Ai image"
                   height="140"
-                  image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Logo_Unicamp.jpg?raw=true"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
