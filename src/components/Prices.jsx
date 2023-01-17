@@ -103,9 +103,9 @@ const Prices = () => {
               <Card sx={{borderRadius:4}} elevation={2} >
                 <CardMedia
                   component="img"
-                  alt="checkspeech Ai image"
+                  alt="ISS Tracker image"
                   height="140"
-                  image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/iss-tracker.png?raw=true"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
