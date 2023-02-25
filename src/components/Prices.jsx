@@ -108,7 +108,7 @@ const Prices = () => {
                   component="img"
                   alt="Dall-e clone"
                   height="140"
-                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/iss-tracker.png?raw=true"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/dalle.png?raw=true"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
@@ -145,7 +145,7 @@ const Prices = () => {
                   component="img"
                   alt="cTodo list"
                   height="140"
-                  image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Todos.png?raw=true"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
