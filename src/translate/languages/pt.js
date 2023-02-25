@@ -8,7 +8,7 @@ const messages = {
         page4: 'Contato',
         page5: 'Idioma',
         modalText: 'Selecione o idioma de sua preferência:',
-        language:'idioma'
+        language: 'idioma'
 
       },
       initial: {
@@ -46,7 +46,7 @@ const messages = {
         detail4: 'Encontre os momentos mais importantes em trechos de falas, diferencie falas positivas e negativas e tome decisões de negócios mais assertivas com uma compreensão mais profunda.',
       },
       prices: {
-        mainTitle: 'Conheça nossos planos',
+        mainTitle: 'Alguns projetos',
 
         card1: {
           title1: 'Beginner',
@@ -122,4 +122,4 @@ const messages = {
   }
 }
 
-export {messages}
+export { messages }

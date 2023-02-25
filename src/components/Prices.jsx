@@ -106,23 +106,24 @@ const Prices = () => {
               <Card sx={{ borderRadius: 4 }} elevation={2}>
                 <CardMedia
                   component="img"
-                  alt="ISS Tracker image"
+                  alt="Dall-e clone"
                   height="140"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/iss-tracker.png?raw=true"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    ISS Tracker
+                    Dall-e Clone
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Aplicação que mostra onde a Estação Espacial Internacional
-                    está localizada no momento criada para aprimorar meus
-                    conhecimentos sobre consumo e API's.
+                    Aplicação que gera imagens usando inteligência artificial e
+                    as salva em um repositório. Criada para aprimorar meus
+                    conhecimentos sobre criação e consumo e API's, bem como
+                    Mongo DB, Node e Express.
                   </Typography>
                 </CardContent>
                 <a
                   style={{ textDecoration: "none", color: "white" }}
-                  href="https://iss-tracker-j8yq.vercel.app/"
+                  href="https://dalle-clone-delta.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -142,22 +143,23 @@ const Prices = () => {
               <Card sx={{ borderRadius: 4 }} elevation={2}>
                 <CardMedia
                   component="img"
-                  alt="checkspeech Ai image"
+                  alt="cTodo list"
                   height="140"
                   image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    CheckSpeech AI
+                    Todo List
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Um Exemplo de site para a venda de uma API de serviços de
-                    conversão de áudio em texto
+                    Um site onde o usuário pode criar uma conta e salvar sua
+                    lista de afazeres, criado para aprimorar conhecimentos sobre
+                    a MERN Stack
                   </Typography>
                 </CardContent>
                 <a
                   style={{ textDecoration: "none", color: "white" }}
-                  href="https://google.com"
+                  href="https://todo-list-one-swart.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -214,22 +216,23 @@ const Prices = () => {
               <Card sx={{ borderRadius: 4 }} elevation={2}>
                 <CardMedia
                   component="img"
-                  alt="checkspeech Ai image"
+                  alt="ISS Tracker image"
                   height="140"
-                  image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/iss-tracker.png?raw=true"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    CheckSpeech AI
+                    ISS Tracker
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Um Exemplo de site para a venda de uma API de serviços de
-                    conversão de áudio em texto
+                    Aplicação que mostra onde a Estação Espacial Internacional
+                    está localizada no momento criada para aprimorar meus
+                    conhecimentos sobre consumo e API's.
                   </Typography>
                 </CardContent>
                 <a
                   style={{ textDecoration: "none", color: "white" }}
-                  href="https://google.com"
+                  href="https://iss-tracker-j8yq.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
