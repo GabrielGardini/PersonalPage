@@ -97,7 +97,9 @@ const Prices = () => {
     <>
       <Box id={"precos"} fontFamily={"Poppins"} sx={{ bgcolor: "black" }}>
         <Box sx={box}>
-          <h1 style={title}>{i18n.t("prices.mainTitle")}</h1>
+          <h1 className="test" style={title}>
+            {i18n.t("prices.mainTitle")}
+          </h1>
           {/* </Card> */}
         </Box>
         <Box sx={{ p: 5, backgroundColor: "black" }}>
@@ -107,9 +109,10 @@ const Prices = () => {
                 <CardMedia
                   component="img"
                   alt="Dall-e clone"
-                  height="140"
+                  height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/dalle.png?raw=true"
                 />
+
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     Dall-e Clone
@@ -117,8 +120,7 @@ const Prices = () => {
                   <Typography variant="body2" color="text.secondary">
                     Aplicação que gera imagens usando inteligência artificial e
                     as salva em um repositório. Criada para aprimorar meus
-                    conhecimentos sobre criação e consumo e API's, bem como
-                    Mongo DB, Node e Express.
+                    conhecimentos sobre MERN
                   </Typography>
                 </CardContent>
                 <a
@@ -128,6 +130,7 @@ const Prices = () => {
                   rel="noreferrer"
                 >
                   <CardActions
+                    className="gradient"
                     sx={{
                       display: "flex",
                       justifyContent: "center",
@@ -144,7 +147,7 @@ const Prices = () => {
                 <CardMedia
                   component="img"
                   alt="cTodo list"
-                  height="140"
+                  height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Todos.png?raw=true"
                 />
                 <CardContent>
@@ -164,6 +167,7 @@ const Prices = () => {
                   rel="noreferrer"
                 >
                   <CardActions
+                    className="gradient"
                     sx={{
                       display: "flex",
                       justifyContent: "center",
@@ -180,7 +184,7 @@ const Prices = () => {
                 <CardMedia
                   component="img"
                   alt="Jacaré do SUS"
-                  height="140"
+                  height="210"
                   image="https://img.itch.zone/aW1hZ2UvOTg0NjczLzU1OTgxNTYucG5n/347x500/nWh0OR.png"
                 />
                 <CardContent>
@@ -199,6 +203,7 @@ const Prices = () => {
                   rel="noreferrer"
                 >
                   <CardActions
+                    className="gradient"
                     sx={{
                       display: "flex",
                       justifyContent: "center",
@@ -217,7 +222,7 @@ const Prices = () => {
                 <CardMedia
                   component="img"
                   alt="ISS Tracker image"
-                  height="140"
+                  height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/iss-tracker.png?raw=true"
                 />
                 <CardContent>
@@ -237,6 +242,7 @@ const Prices = () => {
                   rel="noreferrer"
                 >
                   <CardActions
+                    className="gradient"
                     sx={{
                       display: "flex",
                       justifyContent: "center",
@@ -253,7 +259,7 @@ const Prices = () => {
                 <CardMedia
                   component="img"
                   alt="checkspeech Ai image"
-                  height="140"
+                  height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Logo_Unicamp.jpg?raw=true"
                 />
                 <CardContent>
@@ -272,6 +278,7 @@ const Prices = () => {
                   rel="noreferrer"
                 >
                   <CardActions
+                    className="gradient"
                     sx={{
                       display: "flex",
                       justifyContent: "center",
@@ -284,11 +291,16 @@ const Prices = () => {
               </Card>
             </Grid>
             <Grid item md={4} xs={12}>
-              <Card sx={{ borderRadius: 4 }} elevation={2}>
+              <Card
+                sx={{
+                  borderRadius: 4,
+                }}
+                elevation={2}
+              >
                 <CardMedia
                   component="img"
                   alt="checkspeech Ai image"
-                  height="140"
+                  height="210"
                   image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
                 />
                 <CardContent>
@@ -307,6 +319,7 @@ const Prices = () => {
                   rel="noreferrer"
                 >
                   <CardActions
+                    className="gradient"
                     sx={{
                       display: "flex",
                       justifyContent: "center",

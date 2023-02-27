@@ -43,3 +43,22 @@ html, body, p {
     overflow-x: hidden;
     margin: 0;
 }
+
+.test{
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #4dab6d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+.gradient{
+	background: linear-gradient(to right, #30CFD0 0%, #4dab6d 100%);
+}
+.gradient2{
+	background: linear-gradient(to right, #4dab6d 0%, #30CFD0 100%);
+}
+
