@@ -264,16 +264,15 @@ const Prices = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    CheckSpeech AI
+                    Ping Pong Game
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Um Exemplo de site para a venda de uma API de serviços de
-                    conversão de áudio em texto
+                    Jogo de Ping Pong criado utilizando apenas javascript.
                   </Typography>
                 </CardContent>
                 <a
                   style={{ textDecoration: "none", color: "white" }}
-                  href="https://google.com"
+                  href="https://jogo-ping-pong-peach.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

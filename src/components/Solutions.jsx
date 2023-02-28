@@ -77,7 +77,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>HTML</h3>
                       <small className="text-light">Intermediário</small>
                     </Grid>
@@ -86,7 +86,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>CSS</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -100,7 +100,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>JavaScript</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -116,7 +116,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>React</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -130,7 +130,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>React Native</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -144,7 +144,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>Figma</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -158,7 +158,7 @@ const Solutions = () => {
               </Grid>
             </Grid>
             <Grid item md={0.8} xs={12}>
-              <p style={{ color: "#1976d2" }}> .</p>
+              <p style={{ color: "black" }}> .</p>
             </Grid>
             <Grid
               data-anime={"center"}
@@ -177,7 +177,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>Python</h3>
                       <small className="text-light">Avançado</small>
                     </Grid>
@@ -186,7 +186,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>C</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -200,7 +200,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>Java</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -216,7 +216,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>SQL</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -230,7 +230,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>Node Js</h3>
                       <small
                         style={{ marginBottom: 10 }}
@@ -244,7 +244,7 @@ const Solutions = () => {
                     <Grid item md={2} sx={{ textAlign: "center" }}>
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
                       <h3>Hardware</h3>
                       <small
                         style={{ marginBottom: 10 }}
