@@ -196,9 +196,9 @@ const Prices = () => {
               <Card sx={{ borderRadius: 4 }} elevation={2}>
                 <CardMedia
                   component="img"
-                  alt="checkspeech Ai image"
+                  alt="Ping Pong game"
                   height="210"
-                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Logo_Unicamp.jpg?raw=true"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/pingpong.png?raw=true"
                 />
                 <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
@@ -238,7 +238,7 @@ const Prices = () => {
                   component="img"
                   alt="Michael Scott"
                   height="210"
-                  image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
+                  image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/theOffice.png?raw=true"
                 />
 
                 <CardContent sx={{ height: matches ? 90 : null }}>
