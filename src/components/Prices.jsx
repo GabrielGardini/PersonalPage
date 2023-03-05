@@ -9,9 +9,6 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-import CallIcon from "@mui/icons-material/Call";
-import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
 import { i18n } from "../translate/i18n";
 
 const Prices = () => {
@@ -25,72 +22,13 @@ const Prices = () => {
     fontFamily: "Poppins",
     // fontSize: matches ? 20 : 18
   };
-  const cardTitle = {
-    backgroundColor: "#1976d2",
-    borderRadius: 2,
-  };
+
   const title = {
-    fontSize: 18,
     fontSize: matches ? 40 : 30,
     paddingInline: 20,
     borderRadius: 20,
     backgroundColor: "#4dab6d",
     color: "white",
-  };
-  const container = {
-    display: "flex",
-    flexDirection: matches ? "row" : "column",
-    height: "100%",
-    justifyContent: "center",
-  };
-  const standardCard = {
-    mt: "5%",
-    p: 5,
-  };
-  const standardCardTitle = {
-    p: 2,
-    backgroundColor: "#1976d2",
-    color: "white",
-    borderRadius: 2,
-    textAlign: "center",
-  };
-  const option = {
-    fontSize: 20,
-    marginBottom: 20,
-  };
-  const standardCardPrice = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    fontSize: 20,
-  };
-  const premiumCard = {
-    mt: "5%",
-    p: 5,
-    fontFamily: "Poppins",
-    marginBottom: 6,
-  };
-  const premiumCardTitle = {
-    p: 2,
-    backgroundColor: "black",
-    color: "white",
-    borderRadius: 2,
-    textAlign: "center",
-  };
-  const buttonBox = {
-    display: "flex",
-    justifyContent: "center",
-    marginTop: 5,
-  };
-  const button = {
-    "&:hover": {
-      color: "#1976d2",
-      backgroundColor: "white",
-    },
-    backgroundColor: "white",
-    color: "black",
-    fontFamily: "Poppins",
   };
 
   return (
@@ -113,7 +51,7 @@ const Prices = () => {
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/dalle.png?raw=true"
                 />
 
-                <CardContent>
+                <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
                     Dall-e Clone
                   </Typography>
@@ -150,7 +88,7 @@ const Prices = () => {
                   height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Todos.png?raw=true"
                 />
-                <CardContent>
+                <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
                     Todo List
                   </Typography>
@@ -187,7 +125,7 @@ const Prices = () => {
                   height="210"
                   image="https://img.itch.zone/aW1hZ2UvOTg0NjczLzU1OTgxNTYucG5n/347x500/nWh0OR.png"
                 />
-                <CardContent>
+                <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
                     Jacaré do SUS
                   </Typography>
@@ -225,7 +163,7 @@ const Prices = () => {
                   height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/iss-tracker.png?raw=true"
                 />
-                <CardContent>
+                <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
                     ISS Tracker
                   </Typography>
@@ -262,7 +200,7 @@ const Prices = () => {
                   height="210"
                   image="https://github.com/GabrielGardini/PersonalPage/blob/master/src/Logo_Unicamp.jpg?raw=true"
                 />
-                <CardContent>
+                <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
                     Ping Pong Game
                   </Typography>
@@ -302,7 +240,8 @@ const Prices = () => {
                   height="210"
                   image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
                 />
-                <CardContent>
+
+                <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
                     CheckSpeech AI
                   </Typography>

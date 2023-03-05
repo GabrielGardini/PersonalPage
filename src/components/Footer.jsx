@@ -1,120 +1,90 @@
-import React from 'react';
-import {Box, Divider, Grid, Typography, useMediaQuery} from '@mui/material';
-import CallIcon from '@mui/icons-material/Call';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import BoyIcon from '@mui/icons-material/Boy';
-import BatchPredictionIcon from '@mui/icons-material/BatchPrediction';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import React from "react";
+import { Box, Divider, Grid, Typography, useMediaQuery } from "@mui/material";
+import CallIcon from "@mui/icons-material/Call";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import BoyIcon from "@mui/icons-material/Boy";
+import BatchPredictionIcon from "@mui/icons-material/BatchPrediction";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import LogoFooter from "./LogoFooter";
-import {i18n} from "../translate/i18n";
+import { i18n } from "../translate/i18n";
 
 const Footer = () => {
-  const matches = useMediaQuery('(min-width:900px)');
+  const matches = useMediaQuery("(min-width:900px)");
   //ESTILOS FOOTER
   const footer = {
-    overflow: 'hidden',
-    width: '100%',
-    marginTop: 20,
-    marginLeft: 40,
-    marginRight: 40,
-    fontFamily: 'Poppins',
-  };
-  const box = {
-    display: 'flex',
-    flexDirection: 'row',
-    marginBottom: 4,
-  };
-  const boxIconTitle = {
-    display: 'flex',
-    flexDirection: 'row',
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    overflow: "hidden",
+    height: matches ? 110 : 300,
+    fontFamily: "Poppins",
   };
   const option = {
-    color: 'black',
+    color: "white",
     fontSize: 24,
-    textDecoration: 'none'
+    textDecoration: "none",
   };
-
 
   return (
     <>
-      <Divider/>
-      <footer style={footer}>
-        <Grid container>
-          <Grid item md={3} xs={12}>
-            <Box
-              sx={box}
+      <div className="gradient">
+        <footer className="gradient" style={footer}>
+          <Grid container>
+            <Grid
+              item
+              md={4}
+              xs={12}
+              sx={{ mb: matches ? 0 : 2, mt: matches ? 2 : 0 }}
             >
-              <BatchPredictionIcon fontSize={'large'}/>
-              <Typography marginLeft={1} fontFamily={'Poppins'} textAlign="center">
-                <a href={'#solucoes'} style={option}>
-                  {i18n.t('footer.page1')}
+              <Typography fontFamily={"Poppins"} textAlign="center">
+                <a href={"#solucoes"} style={option}>
+                  {"Sobre mim"}
                 </a>
               </Typography>
-            </Box>
-            <Box pb={{xs: 4, md: 0}} sx={boxIconTitle}>
-              <BoyIcon fontSize={'large'}/>
-              <Typography marginLeft={1} fontFamily={'Poppins'} textAlign="center">
-                <a href={'#clientes'} style={option}>
-                  {i18n.t('footer.page2')}
-                </a>
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item md={3} xs={12}>
-            <Box sx={box}>
-              <AttachMoneyIcon fontSize={'large'}/>
-              <Typography marginLeft={1} fontFamily={'Poppins'} textAlign="center">
-                <a href={'#precos'} style={option}>
-                  {i18n.t('footer.page3')}
-                </a>
-              </Typography>
-            </Box>
-            <Box pb={{xs: 4, md: 0}} sx={boxIconTitle}>
-              <CallIcon fontSize={'large'}/>
-              <Typography marginLeft={1} fontFamily={'Poppins'} textAlign="center">
-                <a href={'#contato'} style={option}>
-                  {i18n.t('footer.page4')}
-                </a>
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item md={3} xs={12}>
-            <Box sx={box}>
-              <FacebookIcon fontSize={'large'}/>
-              <Typography marginLeft={1} fontFamily={'Poppins'} textAlign="center">
-                <a href="https://www.facebook.com" target="_blank" style={option}>
-                  {"Facebook"}
-                </a>
-              </Typography>
-            </Box>
-            <Box sx={boxIconTitle}>
-              <InstagramIcon fontSize={'large'}/>
-              <Typography marginLeft={1} fontFamily={'Poppins'} textAlign="center">
-                <a href="https://www.instagram.com" target="_blank"
-                   style={option}>
-                  {"Instagram"}
-                </a>
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item md={3} xs={12}>
-            {matches ?
-              <Box
-              sx={{
-                display: 'flex',
-                flexDirection: 'row',
-                marginBottom: 1,
-              }}
+            </Grid>
+            <Grid
+              item
+              md={4}
+              xs={12}
+              sx={{ mb: matches ? 0 : 2, mt: matches ? 2 : 0 }}
             >
-              <LogoFooter/>
-            </Box> : null}
-            <Box marginTop={matches? 0: 2} textAlign="left" fontSize={20} fontFamily={'Poppins'}>
-              CheckSpeech AI &reg; {new Date().getFullYear()}
-            </Box>
+              <Typography fontFamily={"Poppins"} textAlign="center">
+                <a href={"#solucoes"} style={option}>
+                  {"Minhas habilidades"}
+                </a>
+              </Typography>
+            </Grid>
+            <Grid
+              item
+              md={4}
+              xs={12}
+              sx={{ mb: matches ? 0 : 2, mt: matches ? 2 : 0 }}
+            >
+              <Typography fontFamily={"Poppins"} textAlign="center">
+                <a href={"#solucoes"} style={option}>
+                  {"Projetos"}
+                </a>
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sx={{ mb: 2, mt: matches ? 2 : 3 }}>
+              <Typography sx={option} fontFamily={"Poppins"} textAlign="center">
+                {`Developed by Gabriel Gardini. ${new Date().getFullYear()}`}
+              </Typography>
+            </Grid>
           </Grid>
-        </Grid>
-      </footer>
+        </footer>
+
+        {/* <h3
+          style={{
+            color: "white",
+            justifyContent: "center",
+            display: "flex",
+            fontFamily: "Poppins",
+            overflow: "hidden",
+          }}
+        >{`Developed by Gabriel Gardini. ${new Date().getFullYear()}`}</h3> */}
+      </div>
     </>
   );
 };
