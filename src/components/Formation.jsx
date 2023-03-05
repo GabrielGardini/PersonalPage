@@ -4,6 +4,7 @@ import CallIcon from "@mui/icons-material/Call";
 import Button from "@mui/material/Button";
 import UnicampLogo from "./Unicamp";
 import { i18n } from "../translate/i18n";
+import { LinkedIn } from "@mui/icons-material";
 
 const Formation = () => {
   const matches = useMediaQuery("(min-width:1000px)");
@@ -48,7 +49,7 @@ const Formation = () => {
 
   return (
     <>
-      <Box style={box}>
+      <Box id={"experience"} style={box}>
         <Grid sx={gridContainer} container spacing={5}>
           <Grid item xl={6} xs={12}>
             <h1>
@@ -67,11 +68,12 @@ const Formation = () => {
             </Box>
             <h2 style={{ color: "white" }}>{i18n.t("formation.detail3")}</h2>
             <Button
-              href={"#contato"}
+              href={"https://www.linkedin.com/in/gabrielgardini/"}
+              target="blank"
               sx={botaoContato}
               size="large"
               variant="contained"
-              startIcon={<CallIcon fontSize="large" />}
+              startIcon={<LinkedIn fontSize="large" />}
               title="conato"
             >
               {i18n.t("formation.contact")}

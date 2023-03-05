@@ -38,7 +38,7 @@ const Footer = () => {
               sx={{ mb: matches ? 0 : 2, mt: matches ? 2 : 0 }}
             >
               <Typography fontFamily={"Poppins"} textAlign="center">
-                <a href={"#solucoes"} style={option}>
+                <a href={"#initial"} style={option}>
                   {"Sobre mim"}
                 </a>
               </Typography>
@@ -62,7 +62,7 @@ const Footer = () => {
               sx={{ mb: matches ? 0 : 2, mt: matches ? 2 : 0 }}
             >
               <Typography fontFamily={"Poppins"} textAlign="center">
-                <a href={"#solucoes"} style={option}>
+                <a href={"#projects"} style={option}>
                   {"Projetos"}
                 </a>
               </Typography>

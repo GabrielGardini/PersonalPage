@@ -33,7 +33,7 @@ const Prices = () => {
 
   return (
     <>
-      <Box id={"precos"} fontFamily={"Poppins"} sx={{ bgcolor: "black" }}>
+      <Box id={"projects"} fontFamily={"Poppins"} sx={{ bgcolor: "black" }}>
         <Box sx={box}>
           <h1 className="test" style={title}>
             {i18n.t("prices.mainTitle")}
@@ -236,23 +236,24 @@ const Prices = () => {
               >
                 <CardMedia
                   component="img"
-                  alt="checkspeech Ai image"
+                  alt="Michael Scott"
                   height="210"
                   image="https://media.licdn.com/dms/image/C5616AQHNuU0OOAnzDg/profile-displaybackgroundimage-shrink_350_1400/0/1642131195313?e=1678320000&v=beta&t=9NCT2EHlkR87Fcmst1pFyfV8jrg8JJcPqhVGFOLZK-0"
                 />
 
                 <CardContent sx={{ height: matches ? 90 : null }}>
                   <Typography gutterBottom variant="h5" component="div">
-                    CheckSpeech AI
+                    The Office Quotes
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Um Exemplo de site para a venda de uma API de serviços de
-                    conversão de áudio em texto
+                    Aplicação web que contém várias frases marcantes de The
+                    Office. Criada para aprimorar conceitos de consumo de Api's
+                    e reprodução de áudio
                   </Typography>
                 </CardContent>
                 <a
                   style={{ textDecoration: "none", color: "white" }}
-                  href="https://google.com"
+                  href="https://the-office-quotes-five.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

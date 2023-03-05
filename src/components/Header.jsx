@@ -22,9 +22,13 @@ import { i18n } from "../translate/i18n";
 import { Settings } from "@mui/icons-material";
 
 const pages = [
-  { title: i18n.t("header.page2"), route: "#experience" },
-  { title: i18n.t("header.page3"), route: "#precos" },
-  { title: i18n.t("header.page4"), route: "#contato" },
+  { title: i18n.t("header.page2"), route: "#experience", target: "" },
+  { title: i18n.t("header.page3"), route: "#projects", target: "" },
+  {
+    title: i18n.t("header.page4"),
+    route: "https://www.linkedin.com/in/gabrielgardini/",
+    target: "blank",
+  },
 ];
 
 function HideOnScroll(props) {
@@ -172,7 +176,11 @@ const Header = () => {
                   {pages.map((page) => (
                     <MenuItem key={page.title}>
                       <Typography fontFamily={"Poppins"} textAlign="center">
-                        <a href={page.route} style={optionSmall}>
+                        <a
+                          href={page.route}
+                          target={page.target}
+                          style={optionSmall}
+                        >
                           {page.title}
                         </a>
                       </Typography>
@@ -193,7 +201,7 @@ const Header = () => {
                 {pages.map((page, index) => (
                   <div key={index}>
                     <Typography fontFamily={"Poppins"} textAlign="center">
-                      <a href={page.route} style={option}>
+                      <a href={page.route} target={page.target} style={option}>
                         {page.title}
                       </a>
                     </Typography>
