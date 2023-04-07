@@ -117,7 +117,7 @@ const Solutions = () => {
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
                     <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
-                      <h3>React</h3>Top
+                      <h3>React</h3>
                       <small
                         style={{ marginBottom: 10 }}
                         className="text-light"
@@ -217,7 +217,7 @@ const Solutions = () => {
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
                     <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
-                      <h3>SQL</h3>
+                      <h3>Mongo DB</h3>
                       <small
                         style={{ marginBottom: 10 }}
                         className="text-light"
@@ -245,7 +245,7 @@ const Solutions = () => {
                       <BsPatchCheckFill className="experience_details-icon" />
                     </Grid>
                     <Grid sx={{ marginLeft: matches ? 0 : 2 }} item md={10}>
-                      <h3>Hardware</h3>
+                      <h3>Express</h3>
                       <small
                         style={{ marginBottom: 10 }}
                         className="text-light"
