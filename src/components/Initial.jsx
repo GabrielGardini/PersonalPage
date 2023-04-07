@@ -36,8 +36,8 @@ const Initial = () => {
     paddingTop: matches ? 0 : 15,
     borderRadius: 100,
     borderTopLeftRadius: 1,
-    width: matches ? 500 : 330,
-    height: matches ? 500 : 330,
+    width: matches ? 450 : 330,
+    height: matches ? 450 : 330,
   };
 
   return (
@@ -63,7 +63,7 @@ const Initial = () => {
               marginTop: matches ? 0 : 5,
             }}
           >
-            <Box>
+            <Box sx={{ display: "flex", justifyContent: "center" }}>
               <ProfilePicture style={animation} />
             </Box>
           </Grid>

@@ -186,7 +186,7 @@ const Header = () => {
                       </Typography>
                     </MenuItem>
                   ))}
-                  <MenuItem key={"language"}>
+                  {/* <MenuItem key={"language"}>
                     <Typography
                       onClick={() => handleOpen()}
                       fontFamily={"Poppins"}
@@ -194,7 +194,7 @@ const Header = () => {
                     >
                       {i18n.t("header.page5")}
                     </Typography>
-                  </MenuItem>
+                  </MenuItem> */}
                 </Menu>
               </Box>
               <Box sx={box2}>
@@ -212,7 +212,7 @@ const Header = () => {
           </Container>
         </AppBar>
       </HideOnScroll>
-      {matches2 ? (
+      {/* {matches2 ? (
         <Fab
           style={fab}
           onClick={() => {
@@ -224,8 +224,8 @@ const Header = () => {
         >
           <Settings />
         </Fab>
-      ) : null}
-      <Modal
+      ) : null} */}
+      {/* <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
@@ -239,8 +239,8 @@ const Header = () => {
             component="h2"
           >
             {i18n.t("header.modalText")}
-          </Typography>
-          <Box sx={modalBox}>
+          </Typography> */}
+      {/* <Box sx={modalBox}>
             <TextField
               sx={modalText}
               name="pais"
@@ -259,9 +259,9 @@ const Header = () => {
                 {"en-US"}
               </option>
             </TextField>
-          </Box>
-        </Box>
-      </Modal>
+          </Box> */}
+      {/* </Box>
+      </Modal> */}
     </>
   );
 };
