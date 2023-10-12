@@ -8,6 +8,7 @@ import {
   CardContent,
   CardMedia,
   Typography,
+  Button,
 } from "@mui/material";
 import { i18n } from "../translate/i18n";
 
@@ -40,6 +41,71 @@ const Prices = () => {
           </h1>
           {/* </Card> */}
         </Box>
+        <Box
+          sx={{
+            color: "white",
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <Box
+            sx={{
+              width: 300,
+              height: 300,
+              bgcolor: "#4dab6d",
+              display: "grid",
+              justifyItems: "center",
+              alignItems: "center",
+              padding: 4,
+              borderRadius: 20,
+            }}
+          >
+            <h1>FlipStore</h1>
+            <h3>Clique para acessar o estudo de caso</h3>
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="https://docs.google.com/presentation/d/1La9uD7E2cWZeU-ZFS16g3FjZvWeytPge5GcNYohKwxI/edit#slide=id.p"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="contained">Acessar</Button>
+            </a>
+          </Box>
+          <Box
+            sx={{
+              color: "white",
+              display: "grid",
+              justifyContent: "space-around",
+              alignItems: "center",
+            }}
+          >
+            <Box
+              sx={{
+                width: 300,
+                height: 300,
+                bgcolor: "#4dab6d",
+                display: "grid",
+                justifyItems: "center",
+                alignItems: "center",
+                padding: 4,
+                borderRadius: 20,
+              }}
+            >
+              <h1>Localizador de Salas da Unicamp</h1>
+              <h3>Clique para acessar o estudo de caso</h3>
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://docs.google.com/presentation/d/1fChOZ-1Pp-U48F4INh0NdFDXeGDSMWEhtYa_X42k3xw/edit#slide=id.gcd03e5b752_0_227"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button variant="contained">Acessar</Button>
+              </a>
+            </Box>
+          </Box>
+        </Box>
+
         <Box sx={{ p: 5, backgroundColor: "black" }}>
           <Grid data-anime={"left"} container spacing={6}>
             <Grid item md={4} xs={12}>
